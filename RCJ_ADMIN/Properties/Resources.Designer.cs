@@ -81,6 +81,26 @@ namespace RCJ_ADMIN.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap appointmentb {
+            get {
+                object obj = ResourceManager.GetObject("appointmentb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap appointmentw {
+            get {
+                object obj = ResourceManager.GetObject("appointmentw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] desktop {
@@ -151,6 +171,26 @@ namespace RCJ_ADMIN.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap historyb {
+            get {
+                object obj = ResourceManager.GetObject("historyb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap historyw {
+            get {
+                object obj = ResourceManager.GetObject("historyw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] lists {
@@ -206,6 +246,26 @@ namespace RCJ_ADMIN.Properties {
         internal static System.Drawing.Bitmap lockw {
             get {
                 object obj = ResourceManager.GetObject("lockw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginb {
+            get {
+                object obj = ResourceManager.GetObject("loginb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginw {
+            get {
+                object obj = ResourceManager.GetObject("loginw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -54,5 +54,20 @@ namespace RCJ_ADMIN
         {
             LoadDashboardPage();
         }
+
+        private void plock_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Lock screen
+            var login = new LoginForm();
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+                this.Show(); // Unlock
+            }
+            else
+            {
+                Application.Exit();
+            }
+        }
+
     }
 }

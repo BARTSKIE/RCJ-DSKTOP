@@ -16,7 +16,17 @@ namespace RCJ_ADMIN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            var login = new LoginForm();
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new MainForm());
+            }
+            else
+            {
+                // Optional: exit if login form is closed or failed
+                Application.Exit();
+            }
+
         }
     }
 }

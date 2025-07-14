@@ -31,16 +31,17 @@ namespace RCJ_ADMIN
         // Class to hold each transaction
         public class Transaction
         {
-            public string Id { get; set; } // Unique ID for each transaction (required to delete)
+            public string Id { get; set; }
             public string CustomerName { get; set; }
-            public string StaffName { get; set; }
             public string ContactNumber { get; set; }
             public string Email { get; set; }
-            public string GlassModel { get; set; }
-            public decimal Price { get; set; }
+            public string StaffName { get; set; }
+            public decimal AmountPaid { get; set; }
+            public string Remarks { get; set; } // <- Custom note
             public DateTime Date { get; set; }
-            public string PictureUrl { get; set; }
+            public string PictureUrl { get; set; } // Optional image
         }
+
 
         // Setup DataGridView columns
         private void SetupGrid()
